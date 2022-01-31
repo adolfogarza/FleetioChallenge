@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		912BC8CE27A72B4300B49FD0 /* FuelEntryFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912BC8CD27A72B4300B49FD0 /* FuelEntryFilterCell.swift */; };
+		912BC8D027A72B6600B49FD0 /* FuelEntryFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912BC8CF27A72B6600B49FD0 /* FuelEntryFilterViewModel.swift */; };
+		912BC8D227A7492A00B49FD0 /* FuelEntryDetailPageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912BC8D127A7492A00B49FD0 /* FuelEntryDetailPageCard.swift */; };
+		912BC8D527A7539F00B49FD0 /* FuelEntriesMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912BC8D427A7539F00B49FD0 /* FuelEntriesMapViewModel.swift */; };
+		912BC8D727A754BD00B49FD0 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912BC8D627A754BD00B49FD0 /* MapAnnotation.swift */; };
+		91F3416627A2CAF0008607A9 /* FleetioChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3416527A2CAF0008607A9 /* FleetioChallengeApp.swift */; };
+		91F3416A27A2CAF2008607A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F3416927A2CAF2008607A9 /* Assets.xcassets */; };
+		91F3416D27A2CAF2008607A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F3416C27A2CAF2008607A9 /* Preview Assets.xcassets */; };
+		91F3417727A2CAF2008607A9 /* FleetioChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3417627A2CAF2008607A9 /* FleetioChallengeTests.swift */; };
+		91F3418127A2CAF2008607A9 /* FleetioChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3418027A2CAF2008607A9 /* FleetioChallengeUITests.swift */; };
+		91F3418327A2CAF2008607A9 /* FleetioChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3418227A2CAF2008607A9 /* FleetioChallengeUITestsLaunchTests.swift */; };
+		91F3419127A2CB07008607A9 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3419027A2CB07008607A9 /* URLBuilder.swift */; };
+		91F3419327A2CC19008607A9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3419227A2CC19008607A9 /* NetworkManager.swift */; };
+		91F3419A27A2D498008607A9 /* FuelEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3419927A2D498008607A9 /* FuelEntry.swift */; };
+		91F3419D27A2E12F008607A9 /* Date+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3419C27A2E12F008607A9 /* Date+Utilities.swift */; };
+		91F341A027A2E779008607A9 /* InitialRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3419F27A2E779008607A9 /* InitialRootView.swift */; };
+		91F341A327A2E8C3008607A9 /* FuelEntriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F341A227A2E8C3008607A9 /* FuelEntriesView.swift */; };
+		91F341A527A2E907008607A9 /* FuelEntriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F341A427A2E907008607A9 /* FuelEntriesViewModel.swift */; };
+		91F341A727A2EAF9008607A9 /* FuelEntriesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F341A627A2EAF9008607A9 /* FuelEntriesMapView.swift */; };
+		91F341A927A326C9008607A9 /* FuelEntriesFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F341A827A326C9008607A9 /* FuelEntriesFilterView.swift */; };
+		91F341AB27A32716008607A9 /* FuelEntryDetailPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F341AA27A32716008607A9 /* FuelEntryDetailPageView.swift */; };
+		91F341AD27A330DB008607A9 /* FuelEntryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F341AC27A330DB008607A9 /* FuelEntryCellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91F3417327A2CAF2008607A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F3415A27A2CAF0008607A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F3416127A2CAF0008607A9;
+			remoteInfo = FleetioChallenge;
+		};
+		91F3417D27A2CAF2008607A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F3415A27A2CAF0008607A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F3416127A2CAF0008607A9;
+			remoteInfo = FleetioChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		912BC8CD27A72B4300B49FD0 /* FuelEntryFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntryFilterCell.swift; sourceTree = "<group>"; };
+		912BC8CF27A72B6600B49FD0 /* FuelEntryFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntryFilterViewModel.swift; sourceTree = "<group>"; };
+		912BC8D127A7492A00B49FD0 /* FuelEntryDetailPageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntryDetailPageCard.swift; sourceTree = "<group>"; };
+		912BC8D427A7539F00B49FD0 /* FuelEntriesMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntriesMapViewModel.swift; sourceTree = "<group>"; };
+		912BC8D627A754BD00B49FD0 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		91F3416227A2CAF0008607A9 /* FleetioChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleetioChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F3416527A2CAF0008607A9 /* FleetioChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetioChallengeApp.swift; sourceTree = "<group>"; };
+		91F3416927A2CAF2008607A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91F3416C27A2CAF2008607A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91F3417227A2CAF2008607A9 /* FleetioChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetioChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F3417627A2CAF2008607A9 /* FleetioChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetioChallengeTests.swift; sourceTree = "<group>"; };
+		91F3417C27A2CAF2008607A9 /* FleetioChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetioChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F3418027A2CAF2008607A9 /* FleetioChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetioChallengeUITests.swift; sourceTree = "<group>"; };
+		91F3418227A2CAF2008607A9 /* FleetioChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetioChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91F3419027A2CB07008607A9 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		91F3419227A2CC19008607A9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		91F3419927A2D498008607A9 /* FuelEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntry.swift; sourceTree = "<group>"; };
+		91F3419C27A2E12F008607A9 /* Date+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utilities.swift"; sourceTree = "<group>"; };
+		91F3419F27A2E779008607A9 /* InitialRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialRootView.swift; sourceTree = "<group>"; };
+		91F341A227A2E8C3008607A9 /* FuelEntriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntriesView.swift; sourceTree = "<group>"; };
+		91F341A427A2E907008607A9 /* FuelEntriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntriesViewModel.swift; sourceTree = "<group>"; };
+		91F341A627A2EAF9008607A9 /* FuelEntriesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntriesMapView.swift; sourceTree = "<group>"; };
+		91F341A827A326C9008607A9 /* FuelEntriesFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntriesFilterView.swift; sourceTree = "<group>"; };
+		91F341AA27A32716008607A9 /* FuelEntryDetailPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntryDetailPageView.swift; sourceTree = "<group>"; };
+		91F341AC27A330DB008607A9 /* FuelEntryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntryCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91F3415F27A2CAF0008607A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3416F27A2CAF2008607A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3417927A2CAF2008607A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		912BC8CB27A72B0100B49FD0 /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				91F341A827A326C9008607A9 /* FuelEntriesFilterView.swift */,
+				912BC8CD27A72B4300B49FD0 /* FuelEntryFilterCell.swift */,
+			);
+			path = FilterView;
+			sourceTree = "<group>";
+		};
+		912BC8CC27A72B1F00B49FD0 /* EntriesView */ = {
+			isa = PBXGroup;
+			children = (
+				91F341A227A2E8C3008607A9 /* FuelEntriesView.swift */,
+				91F341AC27A330DB008607A9 /* FuelEntryCellView.swift */,
+				91F341AA27A32716008607A9 /* FuelEntryDetailPageView.swift */,
+				912BC8D127A7492A00B49FD0 /* FuelEntryDetailPageCard.swift */,
+			);
+			path = EntriesView;
+			sourceTree = "<group>";
+		};
+		912BC8D327A74DCF00B49FD0 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				91F341A627A2EAF9008607A9 /* FuelEntriesMapView.swift */,
+			);
+			path = "Map View";
+			sourceTree = "<group>";
+		};
+		91F3415927A2CAF0008607A9 = {
+			isa = PBXGroup;
+			children = (
+				91F3416427A2CAF0008607A9 /* FleetioChallenge */,
+				91F3417527A2CAF2008607A9 /* FleetioChallengeTests */,
+				91F3417F27A2CAF2008607A9 /* FleetioChallengeUITests */,
+				91F3416327A2CAF0008607A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91F3416327A2CAF0008607A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F3416227A2CAF0008607A9 /* FleetioChallenge.app */,
+				91F3417227A2CAF2008607A9 /* FleetioChallengeTests.xctest */,
+				91F3417C27A2CAF2008607A9 /* FleetioChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F3416427A2CAF0008607A9 /* FleetioChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				91F3418F27A2CAFD008607A9 /* Services */,
+				91F341A127A2E863008607A9 /* ViewModels */,
+				91F3419627A2D2DA008607A9 /* Models */,
+				91F3419E27A2E73D008607A9 /* Views */,
+				91F3419B27A2E11A008607A9 /* Extensions */,
+				91F3416527A2CAF0008607A9 /* FleetioChallengeApp.swift */,
+				91F3416927A2CAF2008607A9 /* Assets.xcassets */,
+				91F3416B27A2CAF2008607A9 /* Preview Content */,
+			);
+			path = FleetioChallenge;
+			sourceTree = "<group>";
+		};
+		91F3416B27A2CAF2008607A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91F3416C27A2CAF2008607A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91F3417527A2CAF2008607A9 /* FleetioChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				91F3417627A2CAF2008607A9 /* FleetioChallengeTests.swift */,
+			);
+			path = FleetioChallengeTests;
+			sourceTree = "<group>";
+		};
+		91F3417F27A2CAF2008607A9 /* FleetioChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91F3418027A2CAF2008607A9 /* FleetioChallengeUITests.swift */,
+				91F3418227A2CAF2008607A9 /* FleetioChallengeUITestsLaunchTests.swift */,
+			);
+			path = FleetioChallengeUITests;
+			sourceTree = "<group>";
+		};
+		91F3418F27A2CAFD008607A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				91F3419027A2CB07008607A9 /* URLBuilder.swift */,
+				91F3419227A2CC19008607A9 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		91F3419627A2D2DA008607A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91F3419927A2D498008607A9 /* FuelEntry.swift */,
+				912BC8D627A754BD00B49FD0 /* MapAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		91F3419B27A2E11A008607A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				91F3419C27A2E12F008607A9 /* Date+Utilities.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		91F3419E27A2E73D008607A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				912BC8D327A74DCF00B49FD0 /* Map View */,
+				912BC8CC27A72B1F00B49FD0 /* EntriesView */,
+				912BC8CB27A72B0100B49FD0 /* FilterView */,
+				91F3419F27A2E779008607A9 /* InitialRootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91F341A127A2E863008607A9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				91F341A427A2E907008607A9 /* FuelEntriesViewModel.swift */,
+				912BC8CF27A72B6600B49FD0 /* FuelEntryFilterViewModel.swift */,
+				912BC8D427A7539F00B49FD0 /* FuelEntriesMapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91F3416127A2CAF0008607A9 /* FleetioChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F3418627A2CAF2008607A9 /* Build configuration list for PBXNativeTarget "FleetioChallenge" */;
+			buildPhases = (
+				91F3415E27A2CAF0008607A9 /* Sources */,
+				91F3415F27A2CAF0008607A9 /* Frameworks */,
+				91F3416027A2CAF0008607A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FleetioChallenge;
+			productName = FleetioChallenge;
+			productReference = 91F3416227A2CAF0008607A9 /* FleetioChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91F3417127A2CAF2008607A9 /* FleetioChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F3418927A2CAF2008607A9 /* Build configuration list for PBXNativeTarget "FleetioChallengeTests" */;
+			buildPhases = (
+				91F3416E27A2CAF2008607A9 /* Sources */,
+				91F3416F27A2CAF2008607A9 /* Frameworks */,
+				91F3417027A2CAF2008607A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F3417427A2CAF2008607A9 /* PBXTargetDependency */,
+			);
+			name = FleetioChallengeTests;
+			productName = FleetioChallengeTests;
+			productReference = 91F3417227A2CAF2008607A9 /* FleetioChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91F3417B27A2CAF2008607A9 /* FleetioChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F3418C27A2CAF2008607A9 /* Build configuration list for PBXNativeTarget "FleetioChallengeUITests" */;
+			buildPhases = (
+				91F3417827A2CAF2008607A9 /* Sources */,
+				91F3417927A2CAF2008607A9 /* Frameworks */,
+				91F3417A27A2CAF2008607A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F3417E27A2CAF2008607A9 /* PBXTargetDependency */,
+			);
+			name = FleetioChallengeUITests;
+			productName = FleetioChallengeUITests;
+			productReference = 91F3417C27A2CAF2008607A9 /* FleetioChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91F3415A27A2CAF0008607A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					91F3416127A2CAF0008607A9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					91F3417127A2CAF2008607A9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 91F3416127A2CAF0008607A9;
+					};
+					91F3417B27A2CAF2008607A9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 91F3416127A2CAF0008607A9;
+					};
+				};
+			};
+			buildConfigurationList = 91F3415D27A2CAF0008607A9 /* Build configuration list for PBXProject "FleetioChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91F3415927A2CAF0008607A9;
+			productRefGroup = 91F3416327A2CAF0008607A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F3416127A2CAF0008607A9 /* FleetioChallenge */,
+				91F3417127A2CAF2008607A9 /* FleetioChallengeTests */,
+				91F3417B27A2CAF2008607A9 /* FleetioChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91F3416027A2CAF0008607A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F3416D27A2CAF2008607A9 /* Preview Assets.xcassets in Resources */,
+				91F3416A27A2CAF2008607A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3417027A2CAF2008607A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3417A27A2CAF2008607A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F3415E27A2CAF0008607A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F341AB27A32716008607A9 /* FuelEntryDetailPageView.swift in Sources */,
+				91F341A327A2E8C3008607A9 /* FuelEntriesView.swift in Sources */,
+				91F3419327A2CC19008607A9 /* NetworkManager.swift in Sources */,
+				912BC8CE27A72B4300B49FD0 /* FuelEntryFilterCell.swift in Sources */,
+				91F341A927A326C9008607A9 /* FuelEntriesFilterView.swift in Sources */,
+				912BC8D227A7492A00B49FD0 /* FuelEntryDetailPageCard.swift in Sources */,
+				912BC8D727A754BD00B49FD0 /* MapAnnotation.swift in Sources */,
+				91F3419D27A2E12F008607A9 /* Date+Utilities.swift in Sources */,
+				91F3416627A2CAF0008607A9 /* FleetioChallengeApp.swift in Sources */,
+				912BC8D527A7539F00B49FD0 /* FuelEntriesMapViewModel.swift in Sources */,
+				91F341A027A2E779008607A9 /* InitialRootView.swift in Sources */,
+				91F341AD27A330DB008607A9 /* FuelEntryCellView.swift in Sources */,
+				912BC8D027A72B6600B49FD0 /* FuelEntryFilterViewModel.swift in Sources */,
+				91F341A727A2EAF9008607A9 /* FuelEntriesMapView.swift in Sources */,
+				91F3419127A2CB07008607A9 /* URLBuilder.swift in Sources */,
+				91F3419A27A2D498008607A9 /* FuelEntry.swift in Sources */,
+				91F341A527A2E907008607A9 /* FuelEntriesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3416E27A2CAF2008607A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F3417727A2CAF2008607A9 /* FleetioChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3417827A2CAF2008607A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F3418127A2CAF2008607A9 /* FleetioChallengeUITests.swift in Sources */,
+				91F3418327A2CAF2008607A9 /* FleetioChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91F3417427A2CAF2008607A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F3416127A2CAF0008607A9 /* FleetioChallenge */;
+			targetProxy = 91F3417327A2CAF2008607A9 /* PBXContainerItemProxy */;
+		};
+		91F3417E27A2CAF2008607A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F3416127A2CAF0008607A9 /* FleetioChallenge */;
+			targetProxy = 91F3417D27A2CAF2008607A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91F3418427A2CAF2008607A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91F3418527A2CAF2008607A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91F3418727A2CAF2008607A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FleetioChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to be displayed on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FleetioChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91F3418827A2CAF2008607A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FleetioChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to be displayed on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FleetioChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91F3418A27A2CAF2008607A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FleetioChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleetioChallenge.app/FleetioChallenge";
+			};
+			name = Debug;
+		};
+		91F3418B27A2CAF2008607A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FleetioChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleetioChallenge.app/FleetioChallenge";
+			};
+			name = Release;
+		};
+		91F3418D27A2CAF2008607A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FleetioChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FleetioChallenge;
+			};
+			name = Debug;
+		};
+		91F3418E27A2CAF2008607A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FleetioChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FleetioChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91F3415D27A2CAF0008607A9 /* Build configuration list for PBXProject "FleetioChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F3418427A2CAF2008607A9 /* Debug */,
+				91F3418527A2CAF2008607A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F3418627A2CAF2008607A9 /* Build configuration list for PBXNativeTarget "FleetioChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F3418727A2CAF2008607A9 /* Debug */,
+				91F3418827A2CAF2008607A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F3418927A2CAF2008607A9 /* Build configuration list for PBXNativeTarget "FleetioChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F3418A27A2CAF2008607A9 /* Debug */,
+				91F3418B27A2CAF2008607A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F3418C27A2CAF2008607A9 /* Build configuration list for PBXNativeTarget "FleetioChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F3418D27A2CAF2008607A9 /* Debug */,
+				91F3418E27A2CAF2008607A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91F3415A27A2CAF0008607A9 /* Project object */;
+}
